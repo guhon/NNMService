@@ -1,0 +1,24 @@
+﻿<?php
+///define("DB_IP", "nnm.fukuda.ac.jp");//* DBサーバIPアドレス
+define("DB_IP", "nnm.fukuda.ac.jp");//* DBサーバIPアドレス
+define("DB_PORT", 3307);       //* 使用ポート番号
+define("DB_SOCK", "/home/mysql.sock");//* ソケット名
+define("DB_NAME", "NNM");       //* データベース名(NNM)
+define("TIMEOUTTIME",120);      //* セッションタイムアウト分
+define("DB_USER","nnm");        //* データベースユーザー名
+define("DB_PW","29d*@NNMS");    //* データベースパスワード
+
+define("DB_KEY", "C:\ProgramData\NNM\ssl\client-key.pem");
+define("DB_CERT", "C:\ProgramData\NNM\ssl\client-cert.pem");
+define("DB_CA", "C:\ProgramData\NNM\ssl\ca-cert.pem");
+define("DB_CAPATH", "C:\ProgramData\NNM\ssl");
+
+## データベース名(NNM)
+$_DB_NAME = "NNM";
+
+## ユーザ名
+$_DB_USER = "nnm";
+
+## データベースパスワード
+$_DB_PASS = "29d*@NNMS";
+?>
